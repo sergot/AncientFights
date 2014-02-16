@@ -1,6 +1,6 @@
 /* 
  * File:   Warrior.h
- * Author: user
+ * Author: Filip Sergot
  *
  * Created on January 26, 2014, 3:49 PM
  */
