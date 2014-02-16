@@ -17,8 +17,9 @@ public:
     Fighter(int strength);
     virtual ~Fighter();
     virtual string toString();
-protected:
-    int strength;
+    Fighter *operator+(Fighter *right);
+    
+    int strength, id;
 };
 
 #endif	/* FIGHTER_H */

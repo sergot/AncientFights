@@ -21,7 +21,7 @@ Orc::~Orc() {
 string Orc::toString() {
     char res[100];
     const char *a = Fighter::toString().c_str();
-    snprintf(res, 100, "%s[name=%s][bothHands=%d]", a, voice.c_str(), bothHands);
+    snprintf(res, 100, "%s[voice=%s][bothHands=%d]", a, voice.c_str(), bothHands);
     
     return res;
 }
